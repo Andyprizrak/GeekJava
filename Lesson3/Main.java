@@ -92,6 +92,7 @@ public class Main {
     private static boolean checkWin(char c) {
         // Проверка по строкам
         // x y задают адрес ячеки n сдвиг (0 или 1) winCount - счетчик совпадений
+        // Может
         int n, winCount = 0;
         for (int y =0; y < fieldSizeY; y++) {
             for (n = 0; n < 2; n++) {
